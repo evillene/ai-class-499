@@ -1,1 +1,27 @@
 /* Styles for deadlines.js. Empty for now. */
+
+.deadline-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.deadline-label {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.deadline-overdue {
+  background: #fde8e8;
+  color: #b42318;
+}
+
+.deadline-soon {
+  background: #fff7d6;
+  color: #b54708;
+}
